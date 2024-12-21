@@ -1,0 +1,44 @@
+{
+	"geode": "4.1.1",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "omgrod.minecraftifycpa",
+	"name": "Minecraftify: Custom Panoramas Addon",
+	"version": "v1.0.0",
+	"developer": "OmgRod",
+	"description": "Adds custom panoramas to Minecraftify mod",
+	"dependencies": [
+		{
+			"id": "zalphalaneous.minecraft",
+			"importance": "required",
+			"version": ">=v0.9.14"
+		},
+		{
+            "id": "geode.node-ids",
+            "version": ">=v1.18.0",
+            "importance": "required"
+        }
+	],
+	"resources": {
+		"files": [
+			"assets/panorama/thegardenawakens/*",
+            "assets/panorama/trickytrials/*",
+            "assets/panorama/trailsandtales/*",
+            "assets/panorama/thewild/*",
+            "assets/panorama/cavesandcliffs2/*",
+            "assets/panorama/cavesandcliffs1/*"
+		]
+	},
+	"settings": {
+        "panorama": {
+            "name": "Panorama",
+            "type": "string",
+            "default": "Tricky Trials",
+            "one-of": ["Caves & Cliffs: Part I", "Caves & Cliffs: Part II", "The Wild Update", "Trails & Tales", "Tricky Trials", "The Garden Awakens"]
+        }
+    }
+}
