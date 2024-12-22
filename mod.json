@@ -31,7 +31,8 @@
             "assets/panorama/thewild/*",
             "assets/panorama/cavesandcliffs2/*",
             "assets/panorama/cavesandcliffs1/*",
-			"assets/panorama/thenether/*"
+			"assets/panorama/thenether/*",
+			"assets/panorama/buzzybees/*"
 		]
 	},
 	"settings": {
@@ -39,7 +40,7 @@
             "name": "Panorama",
             "type": "string",
             "default": "Tricky Trials",
-            "one-of": ["The Nether", "Caves & Cliffs: Part I", "Caves & Cliffs: Part II", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens"]
+            "one-of": ["Buzzy Bees", "The Nether", "Caves & Cliffs: Part I", "Caves & Cliffs: Part II", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens"]
         }
     }
 }

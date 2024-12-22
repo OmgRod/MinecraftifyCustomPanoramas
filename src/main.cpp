@@ -14,6 +14,7 @@ $execute {
             { "Caves & Cliffs: Part II", "cavesandcliffs2" },
             { "Caves & Cliffs: Part I", "cavesandcliffs1" },
             { "The Nether", "thenether" },
+            { "Buzzy Bees", "buzzybees" },
         };
 
         auto mod = Loader::get()->getLoadedMod("zalphalaneous.minecraft");

@@ -16,3 +16,4 @@ This mod adds custom panoramas to Alphalaneous' [Minecraftify mod](mod:zalphalan
 
 - OmgRod: Lead developer
 - Alphalaneous: Developer of Minecraftify + Mod support
+- Mojang/Microsoft: Creating the panoramas
