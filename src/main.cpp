@@ -10,7 +10,7 @@ $execute {
             { "The Garden Awakens", "thegardenawakens" },
             { "Tricky Trials", "trickytrials" },
             { "Trails & Tales", "trailsandtales" },
-            { "The Wild Update", "thewild" },
+            { "The Wild", "thewild" },
             { "Caves & Cliffs: Part II", "cavesandcliffs2" },
             { "Caves & Cliffs: Part I", "cavesandcliffs1" },
             { "The Nether", "thenether" },
