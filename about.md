@@ -11,6 +11,7 @@ This mod adds custom panoramas to Alphalaneous' [Minecraftify mod](mod:zalphalan
 - 1.18-1.18.2: Caves & Cliffs: Part II
 - 1.17-1.17.1: Caves & Cliffs: Part I
 - 1.16-1.16.5: The Nether
+- 1.15-1.15.2: Buzzy Bees
 
 ## Credits:
 
