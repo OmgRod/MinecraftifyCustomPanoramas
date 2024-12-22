@@ -6,7 +6,6 @@ using namespace geode::prelude;
 
 $execute {
     listenForSettingChanges("panorama", [](std::string value) {
-        // Map to store the base filename for each panorama set
         static const std::unordered_map<std::string, std::string> panoramaBaseMap = {
             { "The Garden Awakens", "thegardenawakens" },
             { "Tricky Trials", "trickytrials" },
@@ -14,6 +13,7 @@ $execute {
             { "The Wild Update", "thewild" },
             { "Caves & Cliffs: Part II", "cavesandcliffs2" },
             { "Caves & Cliffs: Part I", "cavesandcliffs1" },
+            { "The Nether", "thenether" },
         };
 
         auto mod = Loader::get()->getLoadedMod("zalphalaneous.minecraft");
