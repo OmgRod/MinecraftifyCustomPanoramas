@@ -42,5 +42,11 @@
             "default": "Tricky Trials",
             "one-of": ["Buzzy Bees", "The Nether", "Caves & Cliffs: Part I", "Caves & Cliffs: Part II", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens"]
         }
-    }
+    },
+	"links": {
+		"community": "https://discord.gg/vK3DuqJwyW",
+		"homepage": "https://omgrod.me/",
+		"source": "https://github.com/OmgRod/MinecraftifyCustomPanoramas"
+	},
+	"tags": ["content", "customization", "enhancement", "interface", "offline", "universal"]
 }
