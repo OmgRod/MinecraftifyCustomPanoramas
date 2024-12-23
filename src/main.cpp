@@ -21,7 +21,7 @@ $execute {
         if (mod && panoramaBaseMap.contains(value)) {
             std::string base = panoramaBaseMap.at(value);
             for (int i = 0; i < 6; ++i) {
-                mod->setSavedValue("panorama-" + std::to_string(i), base + "_panorama_" + std::to_string(i) + ".png"_spr);
+                mod->setSavedValue(fmt::format("panorama-{}", i), fmt::format("{}_panorama_{}.png"_spr, base, i));
             }
             mod->setSavedValue("changed", true);
         }
