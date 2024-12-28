@@ -11,8 +11,8 @@ $execute {
             { "Tricky Trials", "trickytrials" },
             { "Trails & Tales", "trailsandtales" },
             { "The Wild", "thewild" },
-            { "Caves & Cliffs: Part II", "cavesandcliffs2" },
-            { "Caves & Cliffs: Part I", "cavesandcliffs1" },
+            { "Caves & Cliffs: Part II", "cavesandcliffsi" },
+            { "Caves & Cliffs: Part I", "cavesandcliffsii" },
             { "The Nether", "thenether" },
             { "Buzzy Bees", "buzzybees" },
         };

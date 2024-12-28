@@ -8,7 +8,7 @@
 	},
 	"id": "omgrod.minecraftifycpa",
 	"name": "Minecraftify: Custom Panoramas Addon",
-	"version": "v1.0.0",
+	"version": "v1.0.0-alpha.1",
 	"developer": "OmgRod",
 	"description": "Adds custom panoramas to the Minecraftify mod",
 	"dependencies": [
@@ -29,8 +29,8 @@
             "assets/panorama/trickytrials/*",
             "assets/panorama/trailsandtales/*",
             "assets/panorama/thewild/*",
-            "assets/panorama/cavesandcliffs2/*",
-            "assets/panorama/cavesandcliffs1/*",
+            "assets/panorama/cavesandcliffsii/*",
+            "assets/panorama/cavesandcliffsi/*",
 			"assets/panorama/thenether/*",
 			"assets/panorama/buzzybees/*"
 		]
