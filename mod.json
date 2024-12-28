@@ -41,7 +41,7 @@
             "name": "Panorama",
             "type": "string",
             "default": "Tricky Trials",
-            "one-of": ["Village & Pillage", "Buzzy Bees", "The Nether", "Caves & Cliffs Part I", "Caves & Cliffs Part II", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens"]
+            "one-of": ["Village & Pillage", "Buzzy Bees", "The Nether", "Caves & Cliffs I", "Caves & Cliffs II", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens"]
         }
     },
 	"links": {
