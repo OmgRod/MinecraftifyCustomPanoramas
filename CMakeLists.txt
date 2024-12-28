@@ -17,6 +17,8 @@ else()
     message(STATUS "Found Geode: $ENV{GEODE_SDK}")
 endif()
 
+include(cmake/CPM.cmake)
+
 CPMAddPackage("gh:curl/curl#master")
 target_link_libraries(${PROJECT_NAME} CURL)
 
