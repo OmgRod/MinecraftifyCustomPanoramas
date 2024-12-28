@@ -7,3 +7,4 @@
 - Added `Caves & Cliffs: Part I` panorama
 - Added `The Nether` panorama
 - Added `Buzzy Bees` panorama
+- Added `Village & Pillage` panorama

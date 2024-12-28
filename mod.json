@@ -32,7 +32,8 @@
             "assets/panorama/cavesandcliffsii/*",
             "assets/panorama/cavesandcliffsi/*",
 			"assets/panorama/thenether/*",
-			"assets/panorama/buzzybees/*"
+			"assets/panorama/buzzybees/*",
+			"assets/panorama/villageandpillage/*"
 		]
 	},
 	"settings": {
@@ -40,7 +41,7 @@
             "name": "Panorama",
             "type": "string",
             "default": "Tricky Trials",
-            "one-of": ["Buzzy Bees", "The Nether", "Caves & Cliffs: Part I", "Caves & Cliffs: Part II", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens"]
+            "one-of": ["Village & Pillage", "Buzzy Bees", "The Nether", "Caves & Cliffs Part I", "Caves & Cliffs Part II", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens"]
         }
     },
 	"links": {
@@ -48,5 +49,10 @@
 		"homepage": "https://omgrod.me/",
 		"source": "https://github.com/OmgRod/MinecraftifyCustomPanoramas"
 	},
-	"tags": ["content", "customization", "enhancement", "interface", "offline", "universal"]
+	"tags": ["content", "customization", "enhancement", "interface", "offline", "universal"],
+	"early-load": true,
+	"issues": {
+		"info": "Report issues on the GitHub repository",
+		"url": "https://github.com/OmgRod/MinecraftifyCustomPanoramas/issues"
+	}
 }

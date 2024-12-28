@@ -11,10 +11,11 @@ $execute {
             { "Tricky Trials", "trickytrials" },
             { "Trails & Tales", "trailsandtales" },
             { "The Wild", "thewild" },
-            { "Caves & Cliffs: Part II", "cavesandcliffsi" },
-            { "Caves & Cliffs: Part I", "cavesandcliffsii" },
+            { "Caves & Cliffs Part II", "cavesandcliffsii" },
+            { "Caves & Cliffs Part I", "cavesandcliffsi" },
             { "The Nether", "thenether" },
             { "Buzzy Bees", "buzzybees" },
+            { "Village & Pillage", "villageandpillage" }
         };
 
         auto mod = Loader::get()->getLoadedMod("zalphalaneous.minecraft");
