@@ -17,6 +17,15 @@ else()
     message(STATUS "Found Geode: $ENV{GEODE_SDK}")
 endif()
 
+CPMAddPackage("gh:curl/curl#master")
+target_link_libraries(${PROJECT_NAME} CURL)
+
+CPMAddPackage("gh:nlohmann/json#master")
+target_link_libraries(${PROJECT_NAME} nlohmann_json)
+
+CPMAddPackage("gh:madler/zlib#develop")
+target_link_libraries(${PROJECT_NAME} zlib)
+
 add_subdirectory($ENV{GEODE_SDK} ${CMAKE_CURRENT_BINARY_DIR}/geode)
 
 setup_geode_mod(${PROJECT_NAME})
