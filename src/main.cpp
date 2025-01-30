@@ -10,8 +10,8 @@ $execute {
         { "Tricky Trials", "trickytrials" },
         { "Trails & Tales", "trailsandtales" },
         { "The Wild", "thewild" },
-        { "Caves & Cliffs II", "cavesandcliffsii" },
-        { "Caves & Cliffs I", "cavesandcliffsi" },
+        // { "Caves and Cliffs II", "cavesandcliffsii" },
+        // { "Caves and Cliffs I", "cavesandcliffsi" },
         { "The Nether", "thenether" },
         { "Buzzy Bees", "buzzybees" },
         { "Village & Pillage", "villageandpillage" }
@@ -26,7 +26,7 @@ $execute {
             for (int i = 0; i < 6; ++i) {
                 mod->setSavedValue(fmt::format("panorama-{}", i), fmt::format("{}_panorama_{}.png"_spr, base, i));
             }
-            mod->setSavedValue("changed", true);
+            // mod->setSavedValue("changed", true);
         }
 
         // Listen for future changes in the "panorama" setting
