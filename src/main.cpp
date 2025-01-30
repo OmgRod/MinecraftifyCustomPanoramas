@@ -26,7 +26,7 @@ $execute {
             for (int i = 0; i < 6; ++i) {
                 mod->setSavedValue(fmt::format("panorama-{}", i), fmt::format("{}_panorama_{}.png"_spr, base, i));
             }
-            // mod->setSavedValue("changed", true);
+            mod->setSavedValue("changed", true);
         }
 
         // Listen for future changes in the "panorama" setting
