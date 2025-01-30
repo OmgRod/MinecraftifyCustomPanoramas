@@ -11,18 +11,10 @@
 	"version": "v1.0.0-alpha.2",
 	"developer": "OmgRod",
 	"description": "Adds custom panoramas to the Minecraftify mod",
-	"dependencies": [
-		{
-			"id": "zalphalaneous.minecraft",
-			"importance": "required",
-			"version": ">=v0.9.14"
-		},
-		{
-            "id": "geode.node-ids",
-            "version": ">=v1.18.0",
-            "importance": "required"
-        }
-	],
+	"dependencies": {
+		"zalphalaneous.minecraft": ">=v0.9.14",
+		"geode.node-ids": ">=v1.18.0"
+ 	},
 	"resources": {
 		"files": [
 			"assets/panorama/thegardenawakens/*",
