@@ -6,6 +6,7 @@ using namespace geode::prelude;
 
 $execute {
     static const std::unordered_map<std::string, std::string> panoramaBaseMap = {
+        { "Geometry Dash", "gd" },
         { "The Garden Awakens", "thegardenawakens" },
         { "Tricky Trials", "trickytrials" },
         { "Trails & Tales", "trailsandtales" },

@@ -31,7 +31,8 @@
             "assets/panorama/thewild/*",
 			"assets/panorama/thenether/*",
 			"assets/panorama/buzzybees/*",
-			"assets/panorama/villageandpillage/*"
+			"assets/panorama/villageandpillage/*",
+			"assets/panorama/gd/*"
 		]
 	},
 	"settings": {
@@ -39,7 +40,7 @@
             "name": "Panorama",
             "type": "string",
             "default": "Tricky Trials",
-            "one-of": ["Village & Pillage", "Buzzy Bees", "The Nether", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens"]
+            "one-of": ["Village & Pillage", "Buzzy Bees", "The Nether", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens", "Geometry Dash"]
         }
     },
 	"links": {
