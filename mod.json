@@ -11,18 +11,10 @@
 	"version": "v1.0.0-alpha.2",
 	"developer": "OmgRod",
 	"description": "Adds custom panoramas to the Minecraftify mod",
-	"dependencies": [
-		{
-			"id": "zalphalaneous.minecraft",
-			"importance": "required",
-			"version": ">=v0.9.14"
-		},
-		{
-            "id": "geode.node-ids",
-            "version": ">=v1.18.0",
-            "importance": "required"
-        }
-	],
+	"dependencies": {
+		"zalphalaneous.minecraft": ">=v0.9.14",
+		"geode.node-ids": ">=v1.18.0"
+ 	},
 	"resources": {
 		"files": [
 			"assets/panorama/thegardenawakens/*",
@@ -31,7 +23,8 @@
             "assets/panorama/thewild/*",
 			"assets/panorama/thenether/*",
 			"assets/panorama/buzzybees/*",
-			"assets/panorama/villageandpillage/*"
+			"assets/panorama/villageandpillage/*",
+			"assets/panorama/gd/*"
 		]
 	},
 	"settings": {
@@ -39,7 +32,7 @@
             "name": "Panorama",
             "type": "string",
             "default": "Tricky Trials",
-            "one-of": ["Village & Pillage", "Buzzy Bees", "The Nether", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens"]
+            "one-of": ["Village & Pillage", "Buzzy Bees", "The Nether", "The Wild", "Trails & Tales", "Tricky Trials", "The Garden Awakens", "Geometry Dash"]
         }
     },
 	"links": {
